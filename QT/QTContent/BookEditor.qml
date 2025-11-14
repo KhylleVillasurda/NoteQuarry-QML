@@ -29,13 +29,6 @@ Rectangle {
             font.family: "IM FELL English"
         }
 
-        TabButton {
-            id: tabButton
-            x: 1210
-            y: 43
-            text: qsTr("Tab Button")
-        }
-
         RowLayout {
             id: rowLayout
             x: 8
@@ -45,17 +38,38 @@ Rectangle {
         }
 
         Button {
-            id: button3
+            id: m1_redoBtn
             x: 17
             y: 298
             width: 80
             height: 72
             text: qsTr("Redo")
         }
+
+        Button {
+            id: button
+            x: 1487
+            y: 34
+            width: 90
+            height: 53
+            text: qsTr("Previous")
+            highlighted: false
+        }
+
+        TextField {
+            id: pageNum
+            x: 1591
+            y: 34
+            width: 90
+            height: 53
+            text: "Page Num"
+            horizontalAlignment: Text.AlignHCenter
+            placeholderText: qsTr("Text Field")
+        }
     }
 
     TextArea {
-        id: textArea
+        id: m1_paginatedEditor
         x: 120
         y: 142
         width: 1776
@@ -67,7 +81,7 @@ Rectangle {
     }
 
     Button {
-        id: button
+        id: m1_saveBtn
         x: 17
         y: 142
         width: 80
@@ -76,7 +90,7 @@ Rectangle {
     }
 
     Button {
-        id: button1
+        id: m1_undoBtn
         x: 17
         y: 220
         width: 80
@@ -85,11 +99,20 @@ Rectangle {
     }
 
     Button {
-        id: button2
+        id: m1_exitBtn
         x: 17
         y: 378
         width: 80
         height: 72
-        text: qsTr("Button")
+        text: qsTr("Exit")
+    }
+
+    Button {
+        id: button2
+        x: 1694
+        y: 34
+        width: 90
+        height: 53
+        text: qsTr("Next")
     }
 }

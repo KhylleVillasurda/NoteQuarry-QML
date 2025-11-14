@@ -47,7 +47,7 @@ Rectangle {
     }
 
     TextField {
-        id: textField
+        id: titleEntry
         x: 22
         y: 147
         width: 407
@@ -67,7 +67,7 @@ Rectangle {
     }
 
     Button {
-        id: button
+        id: cancelBtn
         x: 22
         y: 287
         width: 407

@@ -8,7 +8,7 @@ Window {
     visible: true
     title: "QT"
 
-    Screen01 {
+    MainWindow {
         id: mainScreen
     }
 

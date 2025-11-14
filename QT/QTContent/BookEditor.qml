@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Layouts
 
 Rectangle {
     id: root
@@ -34,6 +35,23 @@ Rectangle {
             y: 43
             text: qsTr("Tab Button")
         }
+
+        RowLayout {
+            id: rowLayout
+            x: 8
+            y: 129
+            width: 100
+            height: 926
+        }
+
+        Button {
+            id: button3
+            x: 17
+            y: 298
+            width: 80
+            height: 72
+            text: qsTr("Redo")
+        }
     }
 
     TextArea {
@@ -42,6 +60,7 @@ Rectangle {
         y: 142
         width: 1776
         height: 914
+        placeholderTextColor: "#9f8f8f"
         font.pointSize: 14
         font.family: "IM FELL English"
         placeholderText: qsTr("Text Area")
@@ -49,26 +68,26 @@ Rectangle {
 
     Button {
         id: button
-        x: 34
+        x: 17
         y: 142
         width: 80
         height: 72
-        text: qsTr("Button")
+        text: qsTr("Save")
     }
 
     Button {
         id: button1
-        x: 34
+        x: 17
         y: 220
         width: 80
         height: 72
-        text: qsTr("Button")
+        text: qsTr("Undo")
     }
 
     Button {
         id: button2
-        x: 34
-        y: 298
+        x: 17
+        y: 378
         width: 80
         height: 72
         text: qsTr("Button")

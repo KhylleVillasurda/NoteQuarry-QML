@@ -1,0 +1,15 @@
+<RCC>
+    <qresource>
+        <file>QT.qmlproject</file>
+        <file>QT/Constants.qml</file>
+        <file>QT/EventListModel.qml</file>
+        <file>QT/EventListSimulator.qml</file>
+        <file>QT/qmldir</file>
+        <file>QTContent/App.qml</file>
+        <file>QTContent/BookEditor.qml</file>
+        <file>QTContent/images/app_icon.png</file>
+        <file>QTContent/ModeDialog.qml</file>
+        <file>QTContent/Screen01.ui.qml</file>
+        <file>qtquickcontrols2.conf</file>
+    </qresource>
+</RCC>
